@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>20</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>avccc</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>louvers,cube_over,brick,book</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>576</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>E:/html/WOW Slider/templates/backgnd/pure/</ImageTemplate>
+            <ImageTemplateName>Pure</ImageTemplateName>
+            <ImageWidth>1024</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>E:/html/Unnamed Site 2/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>E:/html/Unnamed Site 2</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#ffffff</TemplateColor>
+            <TemplateFont>Arimo</TemplateFont>
+            <TemplateName>pure</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>E:/html/Unnamed Site 2/image/main image fo slider/call of duty.jpg</url>
+                <title>call of duty</title>
+                <filesize>329538</filesize>
+            </Image>
+            <Image>
+                <url>E:/html/Unnamed Site 2/image/main image fo slider/fifa2016.jpg</url>
+                <title>fifa2016</title>
+                <filesize>637598</filesize>
+            </Image>
+            <Image>
+                <url>E:/html/Unnamed Site 2/image/main image fo slider/gta 5.jpg</url>
+                <title>gta 5</title>
+                <filesize>298036</filesize>
+            </Image>
+            <Image>
+                <url>E:/html/Unnamed Site 2/image/main image fo slider/need for seed.jpg</url>
+                <title>need for seed</title>
+                <filesize>247633</filesize>
+            </Image>
+            <Image>
+                <url>E:/html/Unnamed Site 2/image/main image fo slider/prince of persia.jpg</url>
+                <title>prince of persia</title>
+                <filesize>373676</filesize>
+            </Image>
+            <Image>
+                <url>E:/html/Unnamed Site 2/image/main image fo slider/witcher 3 wild hunt.jpg</url>
+                <title>witcher 3 wild hunt</title>
+                <filesize>314183</filesize>
+            </Image>
+            <Image>
+                <url>E:/html/Unnamed Site 2/image/main image fo slider/wrestling.jpg</url>
+                <title>wrestling</title>
+                <filesize>294414</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

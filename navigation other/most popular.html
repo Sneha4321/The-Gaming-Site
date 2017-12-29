@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="file:///K|/New folder (3)/JS/css.css" rel="stylesheet" type="text/css">
+  <title>Gaming site</title>
+  
+  
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="file:///K|/The gaming site/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <script src="file:///K|/The gaming site/css/JS/jquery.min.js" type="text/javascript"></script>
+  <script src="file:///K|/The gaming site/css/JS/bootstrap.min.js" type="text/javascript"></script>
+ 
+  
+  
+  
+  
+  
+  
+  
+<style type="text/css">
+
+
+
+
+@charset "utf-8";
+  #body{
+	  background-color: #fff;
+	  height:auto;
+	  width:auto;
+  }
+  
+  
+
+  
+#nav{
+	height:50px;
+	background-color: #333;
+}
+#ul {
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#li {
+	
+    float: left;
+}
+
+#li a {
+	background-color:#242424;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#li a:hover:not(.active) {
+    background-color:#000;
+}
+
+#active {
+    background-color:#FFF;
+	color:#000
+}
+input[type=text] {
+	height:20px;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    font-size: 16px;
+    background-color: white;
+
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+#subs{
+	color:#fff;
+}
+#subs:hover{
+	color:#fff;
+	text-decoration:none;
+}
+/* Tooltip */
+  .test + .tooltip > .tooltip-inner {
+      background-color: #73AD21;
+      color: #FFFFFF;
+      border: 1px solid green;
+      padding: 15px;
+      font-size: 20px;
+  }
+  /* Tooltip on top */
+  .test + .tooltip.top > .tooltip-arrow {
+      border-top: 5px solid;
+  }
+  /* Tooltip on bottom */
+  .test + .tooltip.bottom > .tooltip-arrow {
+      border-bottom: 5px solid blue;
+  }
+  /* Tooltip on left */
+  .test + .tooltip.left > .tooltip-arrow {
+      border-left: 5px solid red;
+  }
+  /* Tooltip on right */
+  .test + .tooltip.right > .tooltip-arrow {
+      border-right: 5px solid black;
+  }
+#img-logo{
+	margin:0px;
+	padding:0px;
+	float:left;
+	margin-top:0px;
+	margin-left:0px;
+}
+.jumbotron {
+      background-color:#003366;
+      color: #fff;
+	  text-shadow: 2px 4px 8px #003;
+  }
+
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+#header{
+	background-color:#000;
+	margin-bottom:15px;
+
+}
+#menu {
+	font-size:19px;
+	display:inline;
+	padding:0 10px;
+	height:50px;
+	
+
+}
+
+
+#menu ul li{
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	font-size:19px;
+	display:inline;
+	padding:0 10px;
+}
+#menu ul li a{
+	text-shadow: 2px 4px 8px #333;
+	color:#FFF;
+	text-decoration:none;
+}
+#menu ul li a:hover{
+	color:#000;
+	text-decoration:none;
+}
+
+
+.button {
+	  margin-left:12px;
+	  border-radius: 2px;
+	  background-color: #034f84  ;
+
+	  border: none;
+	  text-align: center;
+	  height:50px;
+	  width: 170px;
+	  transition: all 0.5s;
+	   border: 2px solid #000;
+
+	  cursor: pointer;
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -15px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-left: 20px;
+}
+
+.button:hover span:after {
+	color:#FFF;
+  opacity: 1;
+  left: 0;
+}
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+}
+#slider{
+	margin-top:0px;
+	margin-bottom:10px;
+}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 120%;
+      margin: 0px;
+  }
+    	#owl-demo .item img {
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	}
+	
+#main-page{
+	margin:0px;
+	padding:0px;
+	height:auto;
+}
+/* CSS Document */
+
+
+
+/* CONTENT */
+#content { 
+}
+#content .info {
+	 padding:10px; 
+}
+
+/* MOVIE POSTERS */
+#gameposters {
+	 list-style:none;
+	  margin:100px 0;
+	   height:850px; 
+}
+#gameposters li {
+	 display:inline;
+	  float:left;
+	-webkit-perspective: 500;
+	 -webkit-transform-style: preserve-3d;
+	-webkit-transition-property: perspective;
+	 -webkit-transition-duration: 0.5s; 
+}
+#gameposters li:hover {
+	 -webkit-perspective: 5000; 
+}
+	
+#gameposters li img {
+	 border:10px solid #fcfafa;
+	-webkit-transform: rotateY(30deg);
+	-moz-box-shadow:0 3px 10px #888;
+	 -webkit-box-shadow:0 3px 10px #888;
+	-webkit-transition-property: transform;
+	 -webkit-transition-duration: 0.5s; 
+}
+#gameposters li:hover img {
+	 -webkit-transform: rotateY(0deg); 
+}
+
+.gameinfo {
+	 border:10px solid #fcfafa;
+	 padding:20px; width:200px;
+	 height:180px;
+	 background-color:#deddcd;
+	 margin:-195px 0 0 55px;
+	 position:absolute;
+	-moz-box-shadow:0 20px 40px #888; -webkit-box-shadow:0 20px 40px #888;
+	-webkit-transform: translateZ(30px) rotateY(30deg);
+	-webkit-transition-property: transform, box-shadow, margin;
+	 -webkit-transition-duration: 0.5s; 
+}
+	
+#gameposters li:hover .movieinfo {
+	 -webkit-transform: rotateY(0deg);
+	  -webkit-box-shadow:0 5px 10px #888;
+	   margin:-175px 0 0 30px; 
+}
+	
+.gameinfo h3 { 
+	color:#7a3f3a;
+ 	font-variant: small-caps;
+ 	font-family:Georgia,serif,Times;
+    text-align:center; padding-bottom:15px;
+}
+.gameinfo p {
+	 padding-bottom:15px; 
+}
+.gameinfo a {
+	 background-color:#7a3f3a;
+	 padding:5px 10px;
+	 color:#eee;
+	 text-decoration:none;
+	 display:block;
+	 width:80px; text-align:center;
+     margin:0 auto;
+	-moz-border-radius:5px;
+	 -webkit-border-radius:5px; 
+}
+.gameinfo a:hover, .movieinfo a:focus {
+	 background-color:#6a191f; color:#fff; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="body" class="container-fluid">
+<div id="nav">
+<ul id="ul">
+<li id="li"><a href="#home">Home</a></li>
+  <li id="li"><a href="#news">News</a></li>
+  <li id="li"><a href="#contact">Contact</a></li>
+  <li id="li"><a href="#>About us">About Us</a></li>
+  <li id="li" style="float:right" style="margin-right:100px;"><a href="#>About us"><form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+</a></li>
+</ul>
+</div>
+
+
+<div id="header"class="jumbotron text-center" style="background-color:;">
+<img src="file:///K|/The gaming site/image/logo.png" id="img-logo">
+  <h1>The Gaming Site</h1>
+  <p>Gamer don't fear the apocalypse</p>
+  <form class="form-inline">
+    <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+    <button type="button" class="btn btn-danger"><a id="subs"class="test" href="#" data-toggle="tooltip" data-placement="right" title="Thank you!">Subscribe</a></button>
+  </form>
+</div>
+
+
+<div id="menu" style="margin-top:0px; " class="container-fluid">
+  <ul>
+    <button  class="button"><span><li><a href="file:///K|/New folder (3)/index.html">Home </a></li></span></button>
+    <button  class="button"><span> <li><a href="#">Blogstyle</a></li> </span></button>
+    <button  class="button"><span> <li><a href="#">Most Popular</a></li> </span></button>
+    <button  class="button"><span><li><a href="#">Adventure</a></li> </span></button>
+    <button  class="button"><span><li><a href="file:///K|/New folder (3)/all games list.html">All Game List</a></li></span></button>
+    <button  class="button"><span><li><a href="file:///K|/New folder (3)/contact us.html">Contact Us</a></li> </span></button>
+    <button class="button"><span><li><a href="file:///K|/New folder (3)/contact us.html">Most played</a></li> </span></button>
+  
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="wrappers">
+
+ <ul id="movieposters">
+		<li>
+				<img src="file:///K|/The gaming site/image/the witcher 3 wild & hunt/main animation.jpg" alt="The witcher 3 wild hunt" />
+				<div class="movieinfo">
+				  <h3>The witcher 3 wild hunt</h3>
+					<p style="font-size:14px;">The Witcher 3: Wild Hunt is an open world action role-playing video game developed by CD Projekt RED.</p>
+				  <a href="#" title="The witcher 3 wild hunt">More info</a>
+		  </div>
+    </li>
+			<li>
+				<img src="file:///K|/New folder (3)/gaming0/image/fifa16/main animation.jpg" alt="fifa 16" />
+				<div class="movieinfo">
+				  <h3>fifa 16</h3>
+					<p style="font-size:14px;">FIFA 16 is an association football simulation video game developed by EA Canada and published by EA Sports for Microsoft Windows.</p>
+				  <a href="#" title="fifa 16">More info</a>
+			  </div>
+		  </li>
+			<li>
+				<img src="file:///K|/New folder (3)/gaming0/image/grandtheft auto v/main animation.jpg" alt="grandtheft auto" />
+				<div class="movieinfo">
+				  <h3>grandtheft auto</h3>
+					<p style="font-size:14px;">Grand Theft Auto: Episodes from Liberty City includes both The Lost and Damned and The Ballad of Gay Tony together.</p>
+					<a href="#" title="grandtheft auto">More info</a>
+			  </div>
+		  </li>
+  </ul>
+
+</div>
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+    // Activate Carousel
+    $("#myCarousel").carousel();
+    
+    // Enable Carousel Indicators
+    $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+    });
+    $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+    });
+    $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+    });
+    $(".item4").click(function(){
+        $("#myCarousel").carousel(3);
+    });
+    
+    // Enable Carousel Controls
+    $(".left").click(function(){
+        $("#myCarousel").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#myCarousel").carousel("next");
+    });
+
+    $("#myCarousel").on('slide.bs.carousel', function () {
+            alert('A new slide is about to be shown!');
+    });
+});
+</script>
+<div id="main-page">Content for  id "main-page" Goes Here</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+
+</body>
+</htm
